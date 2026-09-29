@@ -1,0 +1,20 @@
+[project]
+name = "lab-04-sql"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Carlin Miles", email = "dvm5zm@virginia.edu" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "mysql-connector-python>=26.7.0",
+    "pandas>=3.0.6",
+]
+
+[project.scripts]
+lab-04-sql = "lab_04_sql:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
